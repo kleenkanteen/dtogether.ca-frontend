@@ -1,13 +1,13 @@
 const MedusaCTA = () => {
   return (
     <div className="py-4 flex justify-center items-center w-full bg-blue-600">
-      <div className="content-container flex flex-row justify-center gap-32">
+      <div className="content-container flex items-center justify-center gap-4 flex-wrap">
         <a href="https://www.medusajs.com" target="_blank" rel="noreferrer">
           <PoweredBy />
         </a>
         <a href="https://sabih.me" target="_blank" rel="noreferrer">
           <span className="text-base-bold text-white">
-            Made with ❤️ and sweat by Sabih
+            Made with ❤️ by Sabih
           </span>
         </a>
       </div>

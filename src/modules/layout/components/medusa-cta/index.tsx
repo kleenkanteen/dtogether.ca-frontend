@@ -6,7 +6,7 @@ const MedusaCTA = () => {
           <PoweredBy />
         </a>
         <a href="https://sabih.me" target="_blank" rel="noreferrer">
-          <span className="text-base-bold text-white">
+          <span className="text-base-bold text-white underline">
             Made with ❤️ by Sabih
           </span>
         </a>

@@ -56,7 +56,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
               <Image
                 src={image.url}
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 priority={index <= 2 ? true : false}
                 className="absolute inset-0"
                 alt={`Product image ${index + 1}`}

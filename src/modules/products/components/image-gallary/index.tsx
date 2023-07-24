@@ -36,7 +36,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
               <Image
                 src={image.url}
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 className="absolute inset-0"
                 alt="Thumbnail"
               />
